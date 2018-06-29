@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdLog.master.cs" Inherits="RotaryClub.AdLog" %>
+
+<!DOCTYPE html>
+<%--Bootstrap links--%>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="RotaryDesign.css" type="text/css" />
+<%--Link end--%>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center .site-nav-utility-container" style="padding-top:0px">
+        <div class="navbar-brand navbar navbar-light bg-light">
+            <a class="navbar-brand" href="Homepage.aspx">
+    <img src="logo.png" class="nav">
+  </a>
+        </div>
+         
+    <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link" href="AdLogHomepage.aspx" style="color:#39424a">Home</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" style="color:#39424a" aria-haspopup="true" aria-expanded="false">About Us</a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item" href="AdLogHistory.aspx" style="color:#39424a">History</a>
+      <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="AdLogAboutInt.aspx" style="color:#39424a">Rotary International</a>
+      <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="AdLogAboutMeghdoot.aspx" style="color:#39424a">Rotary Indore Meghdoot</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="AdLogDirectory.aspx" style="color:#39424a">Directory</a>
+  </li>
+      <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" style="color:#39424a" aria-haspopup="true" aria-expanded="false">Activities</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="AdLogEvent.aspx" style="color:#39424a">Events</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="AdLogProject.aspx" style="color:#39424a">Projects</a>
+    </div>
+  </li>
+         <li class="nav-item">
+    <a class="nav-link" href="AdLogBoard.aspx" style="color:#39424a">Club's Board</a>
+  </li>
+         <%--<li class="nav-item">
+    <a class="nav-link" href="MemArea.aspx" style="color:#39424a">Member's Area</a>
+  </li>--%>
+         <li class="nav-item">
+    <a class="nav-link" href="AdLogContactUs.aspx" style="color:#39424a">Contact Us</a>
+  </li>
+</ul>
+    </nav>
+    <!--Navbar end-->
+
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    <!--Footer-->
+    <div class="footer-copyright py-5 text-center">
+        <a href="https://www.facebook.com/pg/Rotary-Club-of-Indore-Meghdoot-122848057812911/about/?ref=page_internal" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/rotary-club-indore-meghdoot-60607833" class="fa fa-linkedin"></a>
+        © 2018 Rotary Indore Meghdoot. All rights reserved.</>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+</html>
